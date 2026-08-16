@@ -3,7 +3,7 @@ name: Mirror AetrisVPN Configs
 on:
   schedule:
     # Запуск каждые 30 минут (из-за лимитов GitHub Actions запуск может задерживаться)
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:     # Кнопка для ручного запуска
 
 # Даем права боту на запись изменений в репозиторий
